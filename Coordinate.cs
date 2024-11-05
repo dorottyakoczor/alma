@@ -25,9 +25,5 @@ public class Coordinate  //Akkor kell a public ha másik résznél is használni
         return $"{X} {Y}";
     }
 
-    public void DisplayInfo()
-    {
-        Console.WriteLine($"x: {X}, y: {Y}");
-    }
     
 }
